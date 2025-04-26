@@ -23,7 +23,7 @@ const GalleryPage = () => {
 
   return (
     <Box minHeight="100vh" display="flex" flexDirection="column" alignItems="center" justifyContent="center" width="100%" bg="white" py="60px" px="20px" p={4}>
-      
+  
       {/* Carousel */}
       <Box position="relative" width="100%" maxWidth="1200px" height="80vh" overflow="hidden" mb={8}>
         <HStack spacing={8} justify="center" align="center" position="absolute" width="100%" top="50%" transform="translateY(-50%)">
